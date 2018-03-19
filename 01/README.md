@@ -1,4 +1,5 @@
-# 01
+# vuex text
+### vuex simple demo
 
 > A Vue.js project
 

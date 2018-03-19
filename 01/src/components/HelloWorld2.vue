@@ -1,24 +1,17 @@
 <template>
   <div class="hello">
-    <button @click="add">add</button>
-    <button @click="decrease">decrease</button>
-    <button @click="oddAdd">add</button>
-    <div>{{count}}</div>
-    <div>{{getOdd}}</div>
+    pages2
   </div>
 </template>
 
 <script>
-import {mapGetters, mapActions} from 'vuex'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  },
-  computed: mapGetters(['count','getOdd']),
-  methods: mapActions(['add','decrease','oddAdd'])
+  }
 }
 </script>
 

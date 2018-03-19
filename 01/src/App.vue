@@ -1,12 +1,8 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
-    <!-- <router-view/> -->
-    <button @click="add">add</button>
-    <button @click="decrease">decrease</button>
-    <button @click="oddAdd">add</button>
-    <div>{{count}}</div>
-    <div>{{getOdd}}</div>
+    <router-link to="/page">page2</router-link>
+    <router-view/>
   </div>
 </template>
 
@@ -14,8 +10,7 @@
 import {mapGetters, mapActions} from 'vuex'
 export default {
   name: 'App',
-  computed: mapGetters(['count','getOdd']),
-  methods: mapActions(['add','decrease','oddAdd'])
+  
 }
 </script>
 
